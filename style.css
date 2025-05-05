@@ -85,8 +85,11 @@ text-decoration: none;
         transform: translate(-50%);
         background: var(--bg-color);
         width: 100%;
+        display: none;
     }
+   
     .search-box.active{
+        display: block;
         top: 110%;
         box-shadow: var(--box-shadow);
         transition: 0.2s all linear;
